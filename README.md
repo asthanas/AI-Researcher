@@ -36,6 +36,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 📘 Linear Algebra
+
+**Direct Learning Links**
+- MIT 18.06 (Gilbert Strang – full course): https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+- 3Blue1Brown – Essence of Linear Algebra: https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr
+- Linear Algebra Done Right (book): https://linearalgebradonewrong.com/
+
+**Coding Assignments**
+- Implement vector & matrix operations using NumPy
+- PCA from scratch (no sklearn)
+
 **Topics**
 - Scalars, vectors, matrices
 - Dot product, norms
@@ -57,6 +67,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 📘 Probability & Statistics
+
+**Direct Learning Links**
+- Khan Academy – Probability & Statistics: https://www.khanacademy.org/math/statistics-probability
+- StatQuest (Josh Starmer): https://www.youtube.com/@statquest
+- PRML (Bishop) companion resources: https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/
+
+**Coding Assignments**
+- Simulate coin tosses & dice rolls
+- Visualize LLN & CLT using Python
+
 **Topics**
 - Probability axioms
 - Conditional probability
@@ -79,6 +99,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 💻 Python for Research
+
+**Direct Learning Links**
+- NumPy official tutorials: https://numpy.org/learn/
+- PyTorch official tutorials: https://pytorch.org/tutorials/
+- Matplotlib gallery: https://matplotlib.org/stable/gallery/index.html
+
+**Coding Assignments**
+- Implement Gradient Descent for linear regression
+- Plot loss vs iterations
+
 **Topics**
 - NumPy internals
 - Broadcasting & vectorization
@@ -97,6 +127,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 📘 Algorithms
+
+**Direct Learning Links**
+- Elements of Statistical Learning (free PDF): https://hastie.su.domains/ElemStatLearn/
+- Andrew Ng ML Course: https://www.coursera.org/learn/machine-learning
+- PRML lecture notes: https://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall06/
+
+**Coding Assignments**
+- Implement Logistic Regression from scratch
+- Implement kNN & SVM without sklearn
+
 - Linear Regression (normal equation + GD)
 - Logistic Regression
 - k-Nearest Neighbors
@@ -130,6 +170,15 @@ By following this roadmap completely, you will:
 ---
 
 ## 📖 Paper Reading (Start Here)
+
+**Foundational Papers (Direct Links)**
+- Perceptron (Rosenblatt, 1958): https://psycnet.apa.org/record/1959-09865-001
+- SVM (Cortes & Vapnik): https://link.springer.com/article/10.1007/BF00994018
+- Random Forests (Breiman): https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf
+
+**Assignment**
+- Write a 1-page summary covering problem, method, assumptions, limitations
+
 **1 paper/week**
 - Perceptron
 - SVM
@@ -146,6 +195,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 📘 Fundamentals
+
+**Direct Learning Links**
+- Deep Learning Book (Goodfellow): https://www.deeplearningbook.org/
+- CS231n notes: https://cs231n.stanford.edu/
+- MIT 6.S191 videos: https://introtodeeplearning.com/
+
+**Coding Assignments**
+- Implement backpropagation for MLP from scratch
+- Compare SGD vs Adam
+
 - Backpropagation (full derivation)
 - Chain rule (vector form)
 - Activation functions
@@ -162,6 +221,16 @@ By following this roadmap completely, you will:
 ---
 
 ## 🧠 Architectures
+
+**Direct Learning Links**
+- CNNs (CS231n): https://cs231n.github.io/convolutional-networks/
+- RNNs & LSTMs: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+- Attention & Transformers: https://jalammar.github.io/illustrated-transformer/
+
+**Coding Assignments**
+- Train CNN on CIFAR-10: https://www.cs.toronto.edu/~kriz/cifar.html
+- Implement scaled dot-product attention
+
 - Multi-Layer Perceptrons
 - Convolutional Neural Networks
 - RNN, LSTM, GRU
@@ -210,6 +279,15 @@ By following this roadmap completely, you will:
 ---
 
 ## 🧪 Paper Reproduction (Mandatory)
+
+**Direct Paper Links**
+- Adam Optimizer: https://arxiv.org/abs/1412.6980
+- ResNet: https://arxiv.org/abs/1512.03385
+- Transformer: https://arxiv.org/abs/1706.03762
+
+**Reproduction Resources**
+- Papers With Code: https://paperswithcode.com/
+
 Reproduce at least:
 - Adam Optimizer
 - ResNet
@@ -241,6 +319,15 @@ Reproduce at least:
 ## Choose One Track
 
 ### 🔹 Reinforcement Learning
+
+**Learning Links**
+- Sutton & Barto book: http://incompleteideas.net/book/the-book-2nd.html
+- OpenAI Spinning Up: https://spinningup.openai.com/en/latest/
+
+**Datasets & Environments**
+- OpenAI Gym: https://www.gymlibrary.dev/
+- D4RL Offline RL datasets: https://github.com/Farama-Foundation/D4RL
+
 - Markov Decision Processes
 - Policy gradients
 - PPO, SAC
@@ -254,6 +341,14 @@ Reproduce at least:
 ---
 
 ### 🔹 Probabilistic Machine Learning
+
+**Learning Links**
+- Murphy – Probabilistic ML: https://probml.github.io/pml-book/
+- Variational Inference tutorial: https://arxiv.org/abs/1601.00670
+
+**Datasets**
+- UCI ML Repository: https://archive.ics.uci.edu/ml/index.php
+
 - Bayesian inference
 - Variational inference
 - Gaussian Processes
@@ -266,6 +361,15 @@ Reproduce at least:
 ---
 
 ### 🔹 NLP / LLMs
+
+**Learning Links**
+- Hugging Face NLP Course: https://huggingface.co/course
+- Illustrated GPT: https://jalammar.github.io/illustrated-gpt2/
+
+**Datasets**
+- GLUE benchmark: https://gluebenchmark.com/
+- WikiText: https://paperswithcode.com/dataset/wikitext-103
+
 - Language modeling
 - Scaling laws
 - Fine-tuning
@@ -275,6 +379,15 @@ Reproduce at least:
 ---
 
 ### 🔹 Computer Vision
+
+**Learning Links**
+- Self-Supervised Learning survey: https://arxiv.org/abs/2006.08218
+- Vision Transformers: https://arxiv.org/abs/2010.11929
+
+**Datasets**
+- ImageNet: https://www.image-net.org/
+- COCO: https://cocodataset.org/
+
 - Self-supervised learning
 - Contrastive learning
 - Vision Transformers
@@ -312,6 +425,128 @@ Reproduce at least:
 
 ---
 
+# 📅 Weekly Paper-Reading Schedule (52 Weeks)
+
+Follow this schedule alongside the roadmap. Aim for **2 papers/week after Month 3**.
+
+---
+
+## Weeks 1–4: Foundations of Learning
+- Rosenblatt (1958): *The Perceptron*
+- Cover & Hart (1967): *Nearest Neighbor Pattern Classification*
+- Bishop (overview): Probabilistic ML foundations
+
+Goal: Understand what "learning" means mathematically.
+
+---
+
+## Weeks 5–8: Classical ML Theory
+- Vapnik: *Statistical Learning Theory (overview)*
+- Cortes & Vapnik: *Support Vector Machines*
+- Breiman: *Random Forests*
+
+Goal: Bias–variance, margins, ensemble intuition.
+
+---
+
+## Weeks 9–12: Optimization & Generalization
+- Bottou: *Stochastic Gradient Descent Tricks*
+- Nesterov: *Introductory Lectures on Convex Optimization*
+- Goodfellow: Optimization chapter (DL book)
+
+Goal: Why gradient descent works.
+
+---
+
+## Weeks 13–16: Neural Networks Foundations
+- Rumelhart et al. (1986): *Backpropagation*
+- Cybenko (1989): *Universal Approximation Theorem*
+- Glorot & Bengio: Initialization
+
+Goal: Why neural networks are expressive.
+
+---
+
+## Weeks 17–20: CNNs & Vision Breakthroughs
+- LeCun (1998): *LeNet*
+- Krizhevsky (2012): *AlexNet*
+- He et al. (2015): *ResNet*
+
+Goal: Representation learning in vision.
+
+---
+
+## Weeks 21–24: Sequence Models
+- Elman RNNs
+- Hochreiter & Schmidhuber: *LSTM*
+- Cho et al.: *GRU*
+
+Goal: Temporal modeling.
+
+---
+
+## Weeks 25–28: Attention & Transformers
+- Bahdanau et al.: *Attention*
+- Vaswani et al.: *Attention Is All You Need*
+- Transformer analysis papers
+
+Goal: Modern sequence modeling.
+
+---
+
+## Weeks 29–32: Regularization & Generalization
+- Dropout (Srivastava)
+- BatchNorm (Ioffe & Szegedy)
+- Double Descent (Belkin)
+
+Goal: Why big models generalize.
+
+---
+
+## Weeks 33–36: Representation & Self-Supervised Learning
+- Autoencoders
+- SimCLR
+- MoCo
+
+Goal: Learning without labels.
+
+---
+
+## Weeks 37–40: Probabilistic ML
+- Variational Autoencoders
+- Bayesian Neural Networks
+- Gaussian Processes
+
+Goal: Uncertainty-aware learning.
+
+---
+
+## Weeks 41–44: Reinforcement Learning
+- Sutton & Barto (core chapters)
+- DQN
+- PPO
+
+Goal: Sequential decision-making.
+
+---
+
+## Weeks 45–48: Modern Research Directions
+- Scaling Laws
+- Foundation Models
+- Alignment basics
+
+Goal: Research trends.
+
+---
+
+## Weeks 49–52: Your Specialization
+- Read 6–10 papers only in your chosen area
+- Mix foundational + recent work
+
+Goal: Prepare for publication or interviews.
+
+---
+
 # ✅ Final Checklist
 - [ ] Strong math foundations
 - [ ] Classical ML mastery
@@ -319,6 +554,119 @@ Reproduce at least:
 - [ ] 5–10 reproduced papers
 - [ ] 1 specialization
 - [ ] 1 original research project or paper
+
+---
+
+## 📄 Paper Reading Template
+
+Use this template **for every paper you read**. Store one Markdown file per paper.
+
+```
+# Paper Title
+
+## 1. Citation
+- Authors:
+- Conference / Journal / Year:
+- Paper link:
+- Code link (if any):
+
+## 2. Problem Statement
+- What exact problem is this paper solving?
+- Why is this problem important?
+
+## 3. Key Idea (High-Level Intuition)
+- Explain the core idea in simple words
+- What is new compared to prior work?
+
+## 4. Method / Algorithm
+- Model architecture / pipeline
+- Mathematical formulation (key equations)
+- Assumptions made
+
+## 5. Experiments
+- Datasets used
+- Baselines compared
+- Evaluation metrics
+
+## 6. Results
+- Main quantitative results
+- Where does it win / lose?
+
+## 7. Strengths
+- What does this paper do really well?
+
+## 8. Weaknesses / Limitations
+- Where does it fail?
+- Unrealistic assumptions?
+
+## 9. Reproducibility Notes
+- Missing details?
+- Hyperparameters unclear?
+
+## 10. Ideas & Extensions
+- How can this be improved?
+- Can this idea be applied elsewhere?
+
+## 11. One-Sentence Summary
+> If I had to explain this paper to someone in one sentence:
+```
+
+---
+
+## 🧪 Experiment Log Template
+
+Use this template **for every experiment you run** (even failed ones).
+
+```
+# Experiment Title
+
+## 1. Date & Experiment ID
+- Date:
+- Experiment ID / Run name:
+
+## 2. Research Question / Hypothesis
+- What am I trying to test or prove?
+
+## 3. Setup
+- Model architecture:
+- Dataset:
+- Train/validation split:
+- Hardware:
+
+## 4. Hyperparameters
+| Parameter | Value |
+|---------|-------|
+| Learning rate | |
+| Batch size | |
+| Optimizer | |
+| Epochs | |
+
+## 5. Baseline
+- What is the baseline model?
+- Baseline performance:
+
+## 6. Changes Introduced
+- What did I change compared to baseline?
+
+## 7. Metrics & Results
+| Metric | Value |
+|-------|------|
+
+## 8. Observations
+- Training stability
+- Convergence behavior
+- Unexpected behavior
+
+## 9. Failure Analysis
+- What didn’t work?
+- Why might it have failed?
+
+## 10. Conclusion
+- Did the hypothesis hold?
+
+## 11. Next Steps
+- What should be tried next?
+```
 
 ---
 
